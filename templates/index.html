@@ -1,0 +1,20 @@
+{% comment %} this template only serves as "link" to angular {% endcomment %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frontend</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <app-root></app-root>
+    <script src="{% static 'runtime.js' %}" defer></script>
+    <script src="{% static 'polyfills.js' %}" defer></script>
+    <script src="{% static 'vendor.js' %}" defer></script>
+    <script src="{% static 'main.js' %}" defer></script>
+  </body>
+</html>

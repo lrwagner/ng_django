@@ -1,0 +1,4 @@
+# basic requirements
+django
+djangorestframework
+django-cors-headers
