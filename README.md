@@ -9,29 +9,24 @@
 
 # install
 ## 1. angular
-install frontend
----
+### install frontend
 - cd into ./frontend
 - run `npm install`
 
-build app
----
+### build app
 - run `ng build`
 
 ## 2. python/django
 go back to repo root dir
 
-create venv
----
+### create venv
 - `python -m venv .venv` or `conda create --prefix .venv python=3.9`
 
-install requirements
----
+### install requirements
 - activate venv
 - `pip install -r requirements/dev.txt`
 
-django
----
+### django
 - run `python manage.py makemigrations`
 - run `python manage.py migrate`
 - start with `python manage.py runserver`
