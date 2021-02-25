@@ -1,2 +1,4 @@
 # linters, testing etc.
 flake8
+
+-r base.txt
